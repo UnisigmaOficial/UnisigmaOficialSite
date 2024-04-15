@@ -1,0 +1,46 @@
+header {
+    width: 100%;
+    position: relative;
+  }
+
+  .logo {
+    width: 5.5rem;
+    height: 5.5rem;
+  }
+
+  .container-header {
+    position: absolute;
+    background-color: var(--primary-blue);
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 40px;
+    align-items:center;
+    margin: 0 auto; 
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  .options-menu {
+    display: flex;
+    text-align: right;
+    justify-content: right;
+  }
+
+  ul {
+    list-style-type: none;
+    display: inline-flex;
+    gap: 1.25rem;
+  }
+  
+  li {
+    display: inline-block;
+    text-align: justify;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration-line: underline;
+    font-size: 1.25rem;
+    color: var(--white, #fff);
+    cursor: pointer;
+  }
+  
