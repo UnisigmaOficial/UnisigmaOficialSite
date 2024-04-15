@@ -6,6 +6,7 @@ section {
   width: 100%;
   margin: 2.5rem 0 4rem;
   color: #fff;
+  padding: 0 4rem;
 }
 
 .content {
@@ -23,21 +24,6 @@ section {
 }
 
 .content a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-decoration: none;
-  text-transform: uppercase;
-  background-color: var(--primary-yellow);
   padding: 24px 32px;
   width: 348px;
-  font-size: 28px;
-  font-weight: 500;
-  color: #fff;
-  border-radius: 12px;
-  box-shadow: 0 3px 20px 4px rgba(255, 255, 255, 0.15);
-}
-
-.content a:hover {
-  background-color: #f08008;
 }
