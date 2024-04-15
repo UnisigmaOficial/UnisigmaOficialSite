@@ -1,0 +1,13 @@
+<img src="/assets/wave.svg" alt="Wave" id="wave" />
+
+<section id="services">
+  <h2>Nossos Serviços</h2>
+
+  <div class="cards">
+    @for (service of services; track $index) {
+    <app-service-card [data]="service"></app-service-card>
+    }
+  </div>
+
+  <a href="#" class="action-link transition">Explorar Portfólio</a>
+</section>

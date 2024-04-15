@@ -1,0 +1,29 @@
+section {
+  background-color: var(--ice);
+  padding: 4rem 4rem 5rem;
+  text-align: center;
+}
+
+section h2 {
+  margin-bottom: 4rem;
+}
+
+section .cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 3.5rem;
+}
+
+section a {
+  padding: 24px 32px;
+  display: inline-block;
+  margin: 6.25rem 0 5rem;
+  box-shadow: 0 3px 20px 4px rgba(0, 0, 0, 0.15);
+}
+
+#wave {
+  width: 100vw;
+  position: relative;
+  bottom: -8px;
+}

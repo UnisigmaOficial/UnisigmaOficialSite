@@ -7,11 +7,12 @@ import { FooterComponent } from './footer/footer.component';
 import { WhoweareComponent } from './whoweare/whoweare.component';
 import { ValuesComponent } from './values/values.component';
 import { FeedbacksComponent } from './feedbacks/feedbacks.component';
+import { OurServicesComponent } from './components/our-services/our-services.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, PresentationComponent],
+  imports: [RouterOutlet, PresentationComponent, OurServicesComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
