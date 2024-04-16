@@ -10,7 +10,7 @@ header {
 
   .container-header {
     position: absolute;
-    background-color: var(--primary-blue);
+    background-color: linear-gradient(135deg, #258aad 30%, #4abae1);
     width: 100%;
     max-width: 100%;
     margin: 0 auto;
@@ -19,6 +19,7 @@ header {
     margin: 0 auto; 
     display: grid;
     grid-template-columns: 1fr 1fr;
+    box-shadow: 0px 0.5px 0.5px rgb(204, 204, 204, 0.8);
   }
   
   .options-menu {
@@ -43,13 +44,11 @@ header {
     cursor: pointer;
   }
   .buttom {
-    background-color: var(--primary-yellow);
-    border: 2px solid  var(--primary-yellow); 
+    background-color: var(--primary-yellow); 
     border-radius: 5px;
     text-decoration: none;
   }
 
   .buttom:hover {
-    background-color: #fff; 
-    color: #333; 
+    background-color:  #f08008; 
 }
