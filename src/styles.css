@@ -22,9 +22,45 @@ html,
 body {
   width: 100%;
   height: 100%;
-  background-color: var(--ice);
+  background-image: linear-gradient(135deg, #258aad 30%, #4abae1);
+  overflow-x: hidden;
 }
 
-body {
-  padding: 0;
+h1,
+h2 {
+  font-family: "Fredoka", sans-serif;
+}
+
+h1 {
+  font-weight: 600;
+  font-size: 3rem;
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 2.5rem;
+}
+
+.transition {
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.action-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: var(--primary-yellow);
+  font-size: 28px;
+  font-weight: 500;
+  color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 3px 20px 4px rgba(255, 255, 255, 0.15);
+}
+
+.action-link:hover {
+  background-color: #f08008;
 }
