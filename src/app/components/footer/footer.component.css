@@ -5,16 +5,17 @@ footer {
 
 .container-footer {
     display: grid;
-    justify-content: center;
     align-items: center;
     grid-template-columns: 1fr 1fr 1fr;
     padding: 2rem 4rem;
+    max-width: 100%;
 }
 
 .container-img{
     display: flex;
     justify-content: center;
     align-items: center;
+    justify-content: left;
 }
 
 .container-icons {
@@ -31,6 +32,7 @@ a:visited {
 
 .container-text {
     font-size: 12px;
+    text-align: right;
     color: var(--white);
     display: flex;
     flex-direction: column;
