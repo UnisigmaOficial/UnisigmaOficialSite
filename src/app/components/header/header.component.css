@@ -1,22 +1,24 @@
 header {
   width: 100%;
   background-color: linear-gradient(135deg, #258aad 30%, #4abae1);
+  margin-bottom: 2.5rem;
+  border-bottom: 1px solid var(--gray);
 }
 
 .logo {
-  width: 8rem;
-  height: 8rem;
+  width: 180px;
+  height: 91.26px;
 }
 
 .container-header {
   max-width: 100%;
-  padding: 0 4rem;
+  padding: 2.5rem 4rem;
   align-items: center;
   display: grid;
   grid-template-columns: 1fr 1fr;
   box-shadow: 0px 0.5px 0.5px rgb(204, 204, 204, 0.8);
 }
-  
+
 .options-menu {
   display: flex;
   text-align: right;
@@ -28,7 +30,7 @@ ul {
   display: inline-flex;
   gap: 1rem;
 }
-  
+
 li {
   padding: 10px 20px;
   display: inline-block;
@@ -39,7 +41,7 @@ li {
   cursor: pointer;
 }
 .buttom {
-  background-color: var(--primary-yellow); 
+  background-color: var(--primary-yellow);
   border-radius: 5px;
   text-decoration: none;
 }

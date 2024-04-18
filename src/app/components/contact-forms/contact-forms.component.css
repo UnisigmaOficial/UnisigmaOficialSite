@@ -1,0 +1,26 @@
+section {
+  color: var(--white);
+  padding: 0 4rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+section h1 {
+  margin-bottom: 4rem;
+}
+
+section .contact-type {
+  display: flex;
+  flex-direction: column;
+  gap: 1.125rem;
+  margin-bottom: 3.5rem;
+}
+
+section .contact-type span {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+section .contact-type p {
+  font-size: 1.25rem;
+}

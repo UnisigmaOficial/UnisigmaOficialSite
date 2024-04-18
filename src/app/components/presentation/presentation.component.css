@@ -1,0 +1,29 @@
+section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.75rem;
+  width: 100%;
+  margin: 2.5rem 0 4rem;
+  color: #fff;
+  padding: 0 4rem;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+.content p {
+  font-size: 1.25rem;
+  font-family: "Quicksand", sans-serif;
+  line-height: 2rem;
+  width: 574px;
+  margin-top: 3.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.content a {
+  padding: 24px 32px;
+  width: 348px;
+}
