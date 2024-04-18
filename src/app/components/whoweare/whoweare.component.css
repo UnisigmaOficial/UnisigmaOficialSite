@@ -1,19 +1,19 @@
 .whoweare{
     position: relative;
-    top: 150px;
+    top: 180px;
     display: grid;
     align-items: center;
     justify-content: center;
-    grid-template-columns: 50% 50%;
-    gap: 10rem;
+    grid-template-columns: 1fr 1fr;
+    gap: 6rem;
     color: #fff;
     padding: 0 4rem;
 }
 .container-who {
     display: flex;
     flex-direction: column;
-    gap: 2rem;
-  }
+    gap: 1rem;
+}
 
 .container-who p {
     font-size: 1.25rem;
@@ -21,7 +21,8 @@
     margin-top: 2.5rem;
     margin-bottom: 2.5rem;
 }
-.container-values {
+.container-img{
+    display: flex;
     align-items: center;
     justify-content: center;
 }

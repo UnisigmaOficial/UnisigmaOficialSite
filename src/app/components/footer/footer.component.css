@@ -10,7 +10,7 @@ footer {
     align-items: center;
     grid-template-columns: 33.33% 33.33% 33.33%;
     background-color: linear-gradient(135deg, #258aad 30%, #4abae1);
-    padding: 0 20px;
+    padding: 0 4rem;
 }
 
 .container-img{
