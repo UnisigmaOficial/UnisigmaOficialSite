@@ -1,0 +1,27 @@
+.whoweare{
+    position: relative;
+    top: 150px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 50% 50%;
+    gap: 10rem;
+    color: #fff;
+    padding: 0 4rem;
+}
+.container-who {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+.container-who p {
+    font-size: 1.25rem;
+    font-family: "Quicksand", sans-serif;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+.container-values {
+    align-items: center;
+    justify-content: center;
+}
