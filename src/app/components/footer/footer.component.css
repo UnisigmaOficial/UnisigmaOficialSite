@@ -3,3 +3,38 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+.container-footer {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    background-color: linear-gradient(135deg, #258aad 30%, #4abae1);
+    padding: 0 4rem;
+}
+
+.container-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 20px;
+    color: var(--white);
+}
+
+a:visited {
+    color: var(--white);
+}
+
+.container-text {
+    font-size: 12px;
+    color: var(--white);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
