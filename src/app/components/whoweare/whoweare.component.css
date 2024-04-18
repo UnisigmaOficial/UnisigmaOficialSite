@@ -1,6 +1,4 @@
 .whoweare{
-    position: relative;
-    top: 180px;
     display: grid;
     align-items: center;
     justify-content: center;
@@ -8,6 +6,7 @@
     gap: 6rem;
     color: #fff;
     padding: 0 4rem;
+    margin-top: 40px;
 }
 .container-who {
     display: flex;

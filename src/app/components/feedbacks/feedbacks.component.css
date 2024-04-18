@@ -1,0 +1,26 @@
+#wave {
+    width: 100vw;
+    position: relative;
+    margin-top: 60px;
+    bottom: -8px;
+}
+section {
+    background-color: var(--ice);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+section h2 {
+    margin-bottom: 4rem;
+    align-items: center;
+    color: var(--black);
+}
+
+section a {
+    padding: 24px 32px;
+    display: inline-block;
+    margin: 6.25rem 0 5rem;
+    box-shadow: 0 3px 20px 4px rgba(0, 0, 0, 0.15);
+}
