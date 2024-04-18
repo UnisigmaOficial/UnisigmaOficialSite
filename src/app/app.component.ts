@@ -8,11 +8,12 @@ import { WhoweareComponent } from './whoweare/whoweare.component';
 import { ValuesComponent } from './values/values.component';
 import { FeedbacksComponent } from './feedbacks/feedbacks.component';
 import { OurServicesComponent } from './components/our-services/our-services.component';
+import { ContactFormsComponent } from './components/contact-forms/contact-forms.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, PresentationComponent, OurServicesComponent],
+  imports: [RouterOutlet, PresentationComponent, OurServicesComponent, ContactFormsComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
