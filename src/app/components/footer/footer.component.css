@@ -1,16 +1,14 @@
 footer {
-    position: fixed;
-    bottom: 0;
     width: 100%;
+    background-color: var(linear-gradient(135deg, #258aad 30%, #4abae1));
 }
 
 .container-footer {
     display: grid;
     justify-content: center;
     align-items: center;
-    grid-template-columns: 33.33% 33.33% 33.33%;
-    background-color: linear-gradient(135deg, #258aad 30%, #4abae1);
-    padding: 0 4rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 2rem 4rem;
 }
 
 .container-img{

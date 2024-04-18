@@ -1,12 +1,11 @@
 section {
-    position:relative;
-    top: 260px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     gap: 2rem;
     padding: 0 4rem;
+    margin-top: 80px;
 }
 section h2 {
     color: var(--white);
