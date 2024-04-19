@@ -1,17 +1,25 @@
 <header>
-    <div class="container-header">
-        <a href="#">
-          <img src="./assets/logo.svg" class="logo"/>
-        </a>
-        <nav>
-            <div class="options-menu">
-              <ul>
-                <a href="#"><li>Home</li></a>
-                <a href=""><li>Portifólio</li></a>
-                <a class="action-link transition" href=""><li>CONTATO</li></a>
-              </ul>
-            </div>
-        </nav>
-    </div>
+  <input type="checkbox" id="toggle-menu" />
 
+  <div class="container-header">
+    <a routerLink="">
+      <img src="./assets/logo.svg" class="logo" />
+    </a>
+
+    <nav class="transition">
+      <div class="options-menu">
+        <ul>
+          <li><a routerLink="/">Home</a></li>
+          <li><a routerLink="/portifolio">Portifólio</a></li>
+          <li>
+            <a routerLink="/contato" class="action-link transition">CONTATO</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <label for="toggle-menu">
+      <fa-icon [icon]="menuIcon" class="menu-icon"></fa-icon>
+    </label>
+  </div>
 </header>
