@@ -71,4 +71,5 @@ a:hover {
 
 .action-link:hover {
   background-color: #f08008;
+  text-decoration: none;
 }
