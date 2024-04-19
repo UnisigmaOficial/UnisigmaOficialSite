@@ -27,3 +27,24 @@ section a {
   position: relative;
   bottom: -8px;
 }
+
+@media (max-width: 390px) {
+  section {
+    padding: 0.875rem 2rem 2.5rem;
+  }
+
+  section h2 {
+    margin-bottom: 1.75rem;
+  }
+
+  section a {
+    margin: 0;
+    margin-top: 2.5rem;
+    padding: 0.75rem 0;
+    width: 100%;
+  }
+
+  section .cards {
+    gap: 1rem;
+  }
+}

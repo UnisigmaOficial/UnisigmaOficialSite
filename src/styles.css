@@ -73,3 +73,17 @@ a:hover {
   background-color: #f08008;
   text-decoration: none;
 }
+
+@media (max-width: 390px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  h2 {
+    font-size: 1.25rem;
+  }
+
+  .action-link {
+    font-size: 1rem;
+  }
+}

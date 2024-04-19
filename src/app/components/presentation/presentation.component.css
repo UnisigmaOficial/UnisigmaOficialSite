@@ -18,12 +18,39 @@ section {
   font-size: 1.25rem;
   font-family: "Quicksand", sans-serif;
   line-height: 2rem;
-  width: 574px;
+  width: 35.875rem;
   margin-top: 3.5rem;
   margin-bottom: 2.5rem;
 }
 
 .content a {
-  padding: 24px 32px;
-  width: 348px;
+  padding: 1.5rem 2rem;
+  width: 21.75rem;
+}
+
+@media (max-width: 390px) {
+  section {
+    padding: 0 2rem;
+    flex-direction: column;
+  }
+
+  section .content {
+    max-width: 100%;
+  }
+
+  section .content p {
+    font-size: 0.75rem;
+    line-height: 1.25rem;
+    width: 100%;
+    margin: 1rem 0;
+  }
+
+  section .content a {
+    padding: 0.75rem 0;
+    width: 100%;
+  }
+
+  section img {
+    width: 100%;
+  }
 }
