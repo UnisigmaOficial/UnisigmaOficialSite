@@ -31,7 +31,7 @@ ul {
   gap: 1rem;
 }
 
-li {
+li a {
   padding: 10px 20px;
   display: inline-block;
   text-align: justify;
@@ -40,6 +40,7 @@ li {
   color: var(--white, #fff);
   cursor: pointer;
 }
+
 .buttom {
   background-color: var(--primary-yellow);
   border-radius: 5px;

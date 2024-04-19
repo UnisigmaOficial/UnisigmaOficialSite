@@ -1,7 +1,6 @@
 footer {
   width: 100%;
   background-color: var(linear-gradient(135deg, #258aad 30%, #4abae1));
-  margin-top: 6.25rem;
   border-top: 1px solid var(--gray);
 }
 
