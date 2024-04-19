@@ -24,3 +24,8 @@ section a {
     margin: 6.25rem 0 5rem;
     box-shadow: 0 3px 20px 4px rgba(0, 0, 0, 0.15);
 }
+@media (max-width: 390px) {
+section a {
+    padding: 1rem 1rem;
+    }
+}

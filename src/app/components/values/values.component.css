@@ -31,4 +31,25 @@ span {
 }
 fa-icon {
     color: var(--primary-yellow);
+    font-size: 25px;
+}
+
+@media (max-width: 390px) {
+    section {
+        padding: 0 2rem;
+        gap: 1rem;
+        width: 100%;
+    }
+    section h2 {
+        margin-bottom: 1.75rem;
+    }
+    section ul {
+        display: flex;
+        flex-direction: column;
+        list-style-type: none;
+        gap: 3rem;
+    }
+    section li {
+        gap: 20px
+    }
 }

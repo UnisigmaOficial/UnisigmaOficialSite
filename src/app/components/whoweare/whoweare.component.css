@@ -1,4 +1,4 @@
-.whoweare{
+section{
     display: grid;
     align-items: center;
     justify-content: center;
@@ -8,13 +8,13 @@
     padding: 0 4rem;
     margin-top: 40px;
 }
-.container-who {
+section div {
     display: flex;
     flex-direction: column;
     gap: 1rem;
 }
 
-.container-who p {
+section p {
     font-size: 1.25rem;
     font-family: "Quicksand", sans-serif;
     margin-top: 2.5rem;
@@ -24,4 +24,31 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+@media (max-width: 390px) {
+    section {
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        grid-template-columns: 1fr;
+        gap: 2rem;
+        padding: 0 2rem;
+        margin-top: 20px;
+    }
+    section div {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    section p {
+        font-size: 1rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    
+    section img {
+        width: 250px;
+    }
 }
