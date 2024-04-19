@@ -27,3 +27,28 @@ section .contact-type span {
 section .contact-type p {
   font-size: 1.25rem;
 }
+@media (max-width: 390px) {
+  section {
+    padding: 0 2rem;
+    gap: 1rem;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+  }
+  section h1 {
+    margin-bottom: 3rem;
+  }
+  section .contact-type span {
+    font-size: 1rem;
+  }
+  section .contact-type p {
+    font-size: 1rem;
+    gap: 1rem;
+  }
+  section iframe {
+    width: 296px;
+    height: 340px;
+    margin-bottom: 4rem;
+  }
+
+}
