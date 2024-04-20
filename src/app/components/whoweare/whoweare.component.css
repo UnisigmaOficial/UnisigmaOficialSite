@@ -19,6 +19,7 @@ section p {
     font-family: "Quicksand", sans-serif;
     margin-top: 2.5rem;
     margin-bottom: 2.5rem;
+    line-height: 30px;
 }
 .container-img{
     display: flex;
