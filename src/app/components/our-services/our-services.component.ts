@@ -1,12 +1,14 @@
 import { Component } from '@angular/core';
 
+import { RouterLink } from '@angular/router';
+
 import { ServiceCardComponent } from '../service-card/service-card.component';
 import { Service } from '../service-card/service';
 
 @Component({
   selector: 'app-our-services',
   standalone: true,
-  imports: [ServiceCardComponent],
+  imports: [ServiceCardComponent, RouterLink],
   templateUrl: './our-services.component.html',
   styleUrl: './our-services.component.css'
 })
@@ -49,7 +51,7 @@ export class OurServicesComponent {
     },
     {
       title: 'Prototipagem e Design',
-      text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Id quibusdam consectetur similique possimus sapiente, sequi expedita placeat quis odio, minus mollitia assumenda.',
+      text: 'Desenvolver e aplicar técnicas de prototipagem para visualizar e testar diferentes conceitos de design, centrado na criação de modelos interativos que validam e refinam ideias de forma eficaz.',
       image: '/assets/undraw_design_tools_-42-tf 1.svg'
     },
   ]
