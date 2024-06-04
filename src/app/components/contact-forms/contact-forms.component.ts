@@ -1,7 +1,8 @@
 import { Component } from '@angular/core';
 
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
-import { faPhone, faLocationDot, faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import { faPhone, faEnvelope, faCaretRight } from '@fortawesome/free-solid-svg-icons'
+import { faWhatsapp } from '@fortawesome/free-brands-svg-icons'
 
 @Component({
   selector: 'app-contact-forms',
@@ -11,7 +12,8 @@ import { faPhone, faLocationDot, faEnvelope } from '@fortawesome/free-solid-svg-
   styleUrl: './contact-forms.component.css'
 })
 export class ContactFormsComponent {
-  faPhone = faPhone;
-  faLocation = faLocationDot;
-  faMail = faEnvelope;
+  phoneIcon = faPhone;
+  mailIcon = faEnvelope;
+  whatsAppIcon = faWhatsapp;
+  arrowRightIcon = faCaretRight;
 }
