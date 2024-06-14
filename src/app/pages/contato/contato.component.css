@@ -1,0 +1,40 @@
+section {
+  color: var(--white);
+  padding: 0 4rem 6.25rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+section h1 {
+  margin-bottom: 3.5rem;
+}
+
+section .content {
+  width: 100%;
+}
+
+section iframe {
+  margin-top: 4rem;
+  width: 100%;
+  height: 42.5rem;
+}
+
+@media (max-width: 440px) {
+  section {
+    padding: 0 2rem 2.5rem;
+    gap: 1rem;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  section h1 {
+    margin-bottom: 1rem;
+  }
+
+  section iframe {
+    height: 21.25rem;
+    margin-top: 2rem;
+  }
+}

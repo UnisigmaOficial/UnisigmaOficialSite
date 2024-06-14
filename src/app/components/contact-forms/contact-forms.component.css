@@ -1,54 +1,73 @@
-section {
-  color: var(--white);
-  padding: 0 4rem 6.25rem;
+.contact-types {
   display: flex;
   justify-content: space-between;
+  width: 100%;
 }
 
-section h1 {
-  margin-bottom: 4rem;
+.contact-types .contact-type .contact-title .icon {
+  font-size: 4rem;
 }
 
-section .contact-type {
-  display: flex;
-  flex-direction: column;
-  gap: 1.125rem;
-  margin-bottom: 3.5rem;
-}
-
-section .contact-type span {
-  display: flex;
-  gap: 0.75rem;
-  align-items: center;
-  font-weight: 700;
-  font-size: 1.5rem;
-}
-
-section .contact-type p {
+.contact-types .contact-type p {
+  width: 26.25rem;
   font-size: 1.25rem;
+  margin: 1.5rem 0 1rem;
+  line-height: 2rem;
+  font-family: "Quicksand", sans-serif;
 }
-@media (max-width: 390px) {
-  section {
-    padding: 0 2rem;
-    gap: 1rem;
-    width: 100%;
-    justify-content: center;
+
+.contact-types .contact-type a {
+  font-size: 1.5rem;
+  color: var(--white);
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.contact-types .contact-type a span {
+  text-decoration: underline;
+}
+
+.contact-types .contact-type a fa-icon {
+  color: var(--black);
+}
+
+@media (max-width: 1366px) {
+  .contact-types .contact-type p {
+    width: 25rem;
+    font-size: 1.125rem;
+  }
+}
+
+@media (max-width: 440px) {
+  .contact-types {
     flex-direction: column;
-  }
-  section h1 {
-    margin-bottom: 3rem;
-  }
-  section .contact-type span {
-    font-size: 1rem;
-  }
-  section .contact-type p {
-    font-size: 1rem;
-    gap: 1rem;
-  }
-  section iframe {
-    width: 296px;
-    height: 340px;
-    margin-bottom: 4rem;
+    gap: 3rem;
   }
 
+  .contact-types .contact-type .contact-title {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .contact-types .contact-type .contact-title .icon {
+    font-size: 1.25rem;
+  }
+
+  .contact-types .contact-type .contact-title h2 {
+    font-size: 1rem;
+  }
+
+  .contact-types .contact-type p {
+    width: 100%;
+    font-size: 0.75rem;
+    line-height: 1.25rem;
+    margin: 0.75rem 0;
+  }
+
+  .contact-types .contact-type a {
+    font-size: 1rem;
+    gap: 0.5rem;
+  }
 }
