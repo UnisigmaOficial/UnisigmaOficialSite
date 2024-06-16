@@ -1,0 +1,9 @@
+<img src="/assets/wave.svg" alt="Wave" id="wave" />
+
+<section id="our-team">
+  <h2>Nosso time</h2>
+
+  <div id="team">
+    @for (person of team; track $index) { <app-person-card [data]="person" />}
+  </div>
+</section>

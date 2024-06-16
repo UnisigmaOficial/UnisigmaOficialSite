@@ -1,0 +1,37 @@
+#wave {
+  width: 100vw;
+  position: relative;
+  margin-top: 60px;
+  bottom: -8px;
+}
+
+section {
+  background-color: var(--ice);
+  padding: 0 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+section h2 {
+  margin-bottom: 4rem;
+  align-items: center;
+  color: var(--black);
+}
+
+section #team {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 28px;
+  margin-bottom: 80px;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 390px) {
+  section h2 {
+    margin-bottom: 28px;
+    margin-top: 20px;
+  }
+}

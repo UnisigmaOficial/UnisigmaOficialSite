@@ -1,0 +1,24 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 240px;
+  height: 312px;
+  border-radius: 12px;
+  background-color: var(--gray);
+}
+
+.card img {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  margin-bottom: 28px;
+}
+
+.card a {
+  color: var(--primary-yellow);
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
