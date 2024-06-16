@@ -3,13 +3,13 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 110vh;
+    height: 100vh;
   }
   
 
   .pdf-viewer {
     width: 50%;
-    height: 80%;
+    height: 100%;
   }
 
   
