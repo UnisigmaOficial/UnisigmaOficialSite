@@ -1,0 +1,15 @@
+  .pdf-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 110vh;
+  }
+  
+
+  .pdf-viewer {
+    width: 50%;
+    height: 80%;
+  }
+
+  
