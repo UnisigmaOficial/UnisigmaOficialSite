@@ -28,7 +28,7 @@ section a {
   bottom: -8px;
 }
 
-@media (max-width: 390px) {
+@media (max-width: 425px) {
   section {
     padding: 0.875rem 2rem 2.5rem;
   }

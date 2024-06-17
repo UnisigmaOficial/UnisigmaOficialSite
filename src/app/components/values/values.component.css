@@ -34,7 +34,7 @@ fa-icon {
     font-size: 25px;
 }
 
-@media (max-width: 390px) {
+@media (max-width: 425px) {
     section {
         padding: 0 2rem;
         gap: 1rem;

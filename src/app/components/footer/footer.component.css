@@ -62,12 +62,12 @@ strong {
   font-weight: 700;
 }
 
-@media (max-width: 390px) {
+@media (max-width: 425px) {
   .container-footer {
     padding: 1.5rem 2rem;
     display: flex;
     flex-direction: column;
-    gap: 3.5rem;
+    gap: 2rem;
   }
 
   .container-text {

@@ -28,7 +28,7 @@ section {
   width: 21.75rem;
 }
 
-@media (max-width: 390px) {
+@media (max-width: 425px) {
   section {
     padding: 0 2rem;
     flex-direction: column;

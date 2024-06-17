@@ -46,7 +46,7 @@ li a {
   cursor: pointer;
 }
 
-@media (max-width: 390px) {
+@media (max-width: 425px) {
   .container-header {
     padding: 1.125rem 2rem;
   }

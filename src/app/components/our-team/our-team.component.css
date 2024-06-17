@@ -29,7 +29,7 @@ section #team {
   flex-wrap: wrap;
 }
 
-@media (max-width: 390px) {
+@media (max-width: 425px) {
   section h2 {
     margin-bottom: 28px;
     margin-top: 20px;

@@ -74,7 +74,7 @@ a:hover {
   text-decoration: none;
 }
 
-@media (max-width: 390px) {
+@media (max-width: 425px) {
   h1 {
     font-size: 1.5rem;
   }
