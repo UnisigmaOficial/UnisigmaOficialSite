@@ -1,8 +1,8 @@
 <header>
-  <input type="checkbox" id="toggle-menu" />
+  <input type="checkbox" id="toggle-menu" ngModel #menuCheckbox />
 
   <div class="container-header">
-    <a routerLink="">
+    <a routerLink="" (click)="closeMenu()">
       <img src="./assets/logo.svg" class="logo" />
     </a>
 
@@ -10,19 +10,23 @@
       <div class="options-menu">
         <ul>
           <li>
-            <a routerLink="/">Home</a>
+            <a routerLink="/" (click)="closeMenu()">Home</a>
           </li>
 
           <li>
-            <a routerLink="/portfolio">Portfólio</a>
+            <a routerLink="/portfolio" (click)="closeMenu()">Portfólio</a>
           </li>
 
           <li>
-            <a routerLink="/quem-somos">Quem somos</a>
+            <a routerLink="/quem-somos" (click)="closeMenu()">Quem somos</a>
           </li>
 
           <li>
-            <a routerLink="/contato" class="action-link transition">
+            <a
+              routerLink="/contato"
+              class="action-link transition"
+              (click)="closeMenu()"
+            >
               CONTATO
             </a>
           </li>
