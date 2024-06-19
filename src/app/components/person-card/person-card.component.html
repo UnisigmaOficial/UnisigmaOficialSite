@@ -2,7 +2,8 @@
   <img [src]="data.photo" [alt]="data.name" loading="lazy" />
 
   <a [href]="data.linkedinUrl" target="_blank">
-    {{ data.name }}
+    <fa-icon [icon]="linkedinIcon" />
+    <span>{{ data.name }}</span>
   </a>
 
   <span>

@@ -15,13 +15,13 @@ export class OurTeamComponent {
     {
       name: 'Gisele Silva',
       office: 'Presidente Executiva',
-      linkedinUrl: '',
+      linkedinUrl: 'https://www.linkedin.com/in/gisele-silva-69308718a/',
       photo: './assets/gisele.png'
     },
     {
       name: 'Sophia Tomei',
       office: 'Diretor de Admin-fin',
-      linkedinUrl: '',
+      linkedinUrl: 'https://www.linkedin.com/in/sophia-tomei-1a9716278/',
       photo: './assets/sophia.png'
     },
     {
@@ -33,56 +33,62 @@ export class OurTeamComponent {
     {
       name: 'Daniel Felizardo',
       office: 'Diretor de Marketing',
-      linkedinUrl: '',
+      linkedinUrl: 'https://www.linkedin.com/in/danielgfelizardo/',
       photo: './assets/daniel.png'
     },
     {
       name: 'Lucas Andrade',
       office: 'Desenvolvedor',
-      linkedinUrl: '',
+      linkedinUrl: 'https://www.linkedin.com/in/lucasandrade912/',
       photo: './assets/lucas.png'
     },
     {
       name: 'Jessye Pereira',
       office: 'Desenvolvedora',
-      linkedinUrl: '',
+      linkedinUrl: 'https://www.linkedin.com/in/jessyepereira/',
       photo: './assets/jessye.png'
     },
     {
       name: 'Johnner Yelcde',
       office: 'Desenvolvedor',
-      linkedinUrl: '',
+      linkedinUrl: 'https://www.linkedin.com/in/johnner-yelcde-8b2736253/',
       photo: './assets/johnner.png'
     },
     {
       name: 'Jonata Barbosa',
       office: 'Desenvolvedor',
-      linkedinUrl: '',
+      linkedinUrl: 'https://www.linkedin.com/in/jonata-barbosa-31103a19b/',
       photo: './assets/jon.png'
     },
     {
       name: 'Caue Trajano',
       office: 'Desenvolvedor',
-      linkedinUrl: '',
+      linkedinUrl: 'https://www.linkedin.com/in/cauetrajano/',
       photo: './assets/caue.png'
     },
     {
       name: 'Maira Fernandes',
       office: 'Desenvolvedora',
-      linkedinUrl: '',
+      linkedinUrl: 'https://www.linkedin.com/in/maira-fernandes-130761273/',
       photo: './assets/maira.png'
     },
     {
       name: 'Matheus Kauã',
-      office: 'Trainee',
+      office: 'Consultor de Adm-fin',
       linkedinUrl: '',
       photo: './assets/matheus.png'
     },
     {
       name: 'Thaysa Mary',
-      office: 'Trainne',
+      office: 'Consultor de Adm-fin',
       linkedinUrl: '',
       photo: './assets/thaysa.png'
+    },
+    {
+      name: 'Mateus Douglas',
+      office: 'Gente e Gestão',
+      linkedinUrl: '',
+      photo: './assets/douglas.png'
     },
   ]
 }

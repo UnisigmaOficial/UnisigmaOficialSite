@@ -1,14 +1,17 @@
 import { Component, Input } from '@angular/core';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 import { Person } from './person';
 
 @Component({
   selector: 'app-person-card',
   standalone: true,
-  imports: [],
+  imports: [FontAwesomeModule],
   templateUrl: './person-card.component.html',
   styleUrl: './person-card.component.css'
 })
 export class PersonCardComponent {
-  @Input() data!: Person
+  linkedinIcon = faLinkedin;
+  @Input() data!: Person;
 }
