@@ -1,24 +1,39 @@
 <header>
   <input type="checkbox" id="toggle-menu" ngModel #menuCheckbox />
 
-  <div class="container-header">
-    <a routerLink="" (click)="closeMenu()">
-      <img src="./assets/logo.svg" class="logo" />
+  <div class="container-header" aria-label="Navegar para página principal">
+    <a routerLink="/" (click)="closeMenu()">
+      <img src="./assets/logo.svg" alt="UniSigma logo" class="logo" />
     </a>
 
     <nav class="transition">
       <div class="options-menu">
         <ul>
           <li>
-            <a routerLink="/" (click)="closeMenu()">Home</a>
+            <a
+              routerLink="/"
+              (click)="closeMenu()"
+              aria-label="Navegar para página principal"
+              >Home</a
+            >
           </li>
 
           <li>
-            <a routerLink="/portfolio" (click)="closeMenu()">Portfólio</a>
+            <a
+              routerLink="/portfolio"
+              (click)="closeMenu()"
+              aria-label="Navegar para página portfólio"
+              >Portfólio</a
+            >
           </li>
 
           <li>
-            <a routerLink="/quem-somos" (click)="closeMenu()">Quem somos</a>
+            <a
+              routerLink="/quem-somos"
+              (click)="closeMenu()"
+              aria-label="Navegar para página quem somos"
+              >Quem somos</a
+            >
           </li>
 
           <li>
@@ -26,6 +41,7 @@
               routerLink="/contato"
               class="action-link transition"
               (click)="closeMenu()"
+              aria-label="Navegar para página contato"
             >
               CONTATO
             </a>
