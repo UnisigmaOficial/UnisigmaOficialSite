@@ -11,3 +11,9 @@
   width: 50%;
   height: 100%;
 }
+
+@media (max-width: 425px) {
+  .pdf-viewer {
+    width: 80%;
+  }
+}

@@ -37,9 +37,13 @@
     width: 25rem;
     font-size: 1.125rem;
   }
+
+  .contact-types .contact-type p {
+    width: 100%;
+  }
 }
 
-@media (max-width: 440px) {
+@media (max-width: 1024px) {
   .contact-types {
     flex-direction: column;
     gap: 3rem;
@@ -51,6 +55,12 @@
     gap: 0.5rem;
   }
 
+  .contact-types .contact-type .contact-title .icon {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 425px) {
   .contact-types .contact-type .contact-title .icon {
     font-size: 1.25rem;
   }

@@ -62,7 +62,7 @@ strong {
   font-weight: 700;
 }
 
-@media (max-width: 425px) {
+@media (max-width: 768px) {
   .container-footer {
     padding: 1.5rem 2rem;
     display: flex;

@@ -12,10 +12,10 @@ section h2 {
 }
 
 section ul {
+    width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     list-style-type: none;
-    gap: 8rem;
 }
 
 section li {
