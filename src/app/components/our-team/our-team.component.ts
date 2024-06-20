@@ -27,7 +27,7 @@ export class OurTeamComponent {
     {
       name: 'Mylena Macena',
       office: 'Gerente de Marketing',
-      linkedinUrl: '',
+      linkedinUrl: 'https://www.linkedin.com/in/mylena-macena-747482232/',
       photo: './assets/mylena.png'
     },
     {
@@ -75,19 +75,19 @@ export class OurTeamComponent {
     {
       name: 'Matheus Kauã',
       office: 'Consultor de Adm-fin',
-      linkedinUrl: '',
+      linkedinUrl: 'https://www.linkedin.com/in/matheus-souza-a8520a249/',
       photo: './assets/matheus.png'
     },
     {
       name: 'Thaysa Mary',
       office: 'Consultor de Adm-fin',
-      linkedinUrl: '',
+      linkedinUrl: 'https://www.linkedin.com/in/thaysa-mary-354849209/',
       photo: './assets/thaysa.png'
     },
     {
       name: 'Mateus Douglas',
       office: 'Gente e Gestão',
-      linkedinUrl: '',
+      linkedinUrl: 'https://www.linkedin.com/in/mateus-albuquerque-ab220a270/',
       photo: './assets/douglas.png'
     },
   ]
