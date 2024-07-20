@@ -1,6 +1,6 @@
 section {
   background-color: var(--ice);
-  padding: 4rem 4rem 5rem;
+  padding: 0 4rem 5rem;
   text-align: center;
 }
 
@@ -16,10 +16,10 @@ section .cards {
 }
 
 section a {
-  padding: 24px 32px;
+  padding: 1.5rem 2rem;
   display: inline-block;
-  margin: 6.25rem 0 5rem;
-  box-shadow: 0 3px 20px 4px rgba(0, 0, 0, 0.15);
+  margin-top: 5rem;
+  box-shadow: 0 3px 1.25rem 0.25rem rgba(0, 0, 0, 0.15);
 }
 
 #wave {
