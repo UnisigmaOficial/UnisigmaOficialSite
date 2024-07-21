@@ -1,27 +1,31 @@
-# UnisigmaOficialSite
+# 🦁 UniSigma - Empresa Junior de Administração e Sistemas para Internet do IFPB
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.2.
+Com sede de empreender e entregando soluções que impactam o mercado positivamente, nós, da Unisigma, estamos aqui para garantir que a tecnologia não seja uma barreira, mas sim uma ferramenta acessível e eficaz para você, sua equipe e seu negócio.
 
-## Development server
+<img src="images/unisigma.jpeg" alt="Time UniSigma">
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## 🛠️ Conhecça nossos serviços
 
-## Code scaffolding
+Oferecemos diversos serviços que sua empresa pode necessitar como:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Marketing
+- Estruturação Financeira
+- Planejamento Estratégico
+- Pesquisa de Mercado
+- Cliente Oculto
+- Customer Experience
+- Desenvolvimento de Sites
+- Sistema de Agendamento
+- Sistema de Gestão
+- Sistema de Menu Digital
 
-## Build
+Conheça nosso [site oficial](https://unisigma.onrender.com/) para saber mais sobre nossos serviços e nossa história.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## ☎️ Contato
 
-## Running unit tests
+Caso queira entrar em contato, aqui estão algumas de nossas redes:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- <a href="https://wa.me/5583986690647?text=Ol%C3%A1%2C+preciso+tirar+algumas+duvidas.">WhatsApp</a>
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- <a href="tel:(83) 98669-0647">Telefone</a>
+- <a href="mailto:comercialunisigma@gmail.com?subject=PLANEJAMENTO%20EMPRESARIAL%20%2F%20DIGITAL">E-mail</a>
