@@ -4,33 +4,41 @@ section {
   align-items: center;
   gap: 1.75rem;
   width: 100%;
-  margin: 2.5rem 0 4rem;
+  margin-top: 4rem;
   color: #fff;
   padding: 0 4rem;
 }
 
-.content {
+section .content {
   display: flex;
   flex-direction: column;
 }
 
-.content p {
+section .content p {
   font-size: 1.25rem;
   font-family: "Quicksand", sans-serif;
-  line-height: 2rem;
+  line-height: 2.5rem;
   width: 35.875rem;
   margin-top: 3.5rem;
   margin-bottom: 2.5rem;
 }
 
-.content a {
+section .content a {
   padding: 1.5rem 2rem;
   width: 21.75rem;
 }
 
-/* @media (max-width: 1024px) {
+@media (min-width: 1920px) {
+  section {
+    padding: 0 7rem;
+  }
 
-} */
+  section .content p {
+    width: 95%;
+    font-size: 1.75rem;
+    line-height: 3rem;
+  }
+}
 
 @media (max-width: 425px) {
   section {

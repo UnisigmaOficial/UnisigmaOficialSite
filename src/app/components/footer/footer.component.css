@@ -8,7 +8,7 @@ footer {
   display: grid;
   align-items: center;
   grid-template-columns: 1fr 1fr 1fr;
-  padding: 2rem 4rem;
+  padding: 2.5rem 4rem;
   max-width: 100%;
 }
 
@@ -60,6 +60,27 @@ a fa-icon {
 
 strong {
   font-weight: 700;
+}
+
+@media (min-width: 1920px) {
+  .container-footer {
+    padding: 2.5rem 7rem;
+  }
+
+  .container-text {
+    font-size: 1rem;
+  }
+
+  a {
+    width: 3rem;
+    height: 3rem;
+  }
+
+  a fa-icon {
+    width: 2rem;
+    height: 2rem;
+    font-size: 2rem;
+  }
 }
 
 @media (max-width: 768px) {

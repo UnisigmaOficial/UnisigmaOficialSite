@@ -20,7 +20,7 @@ export class OurTeamComponent {
     },
     {
       name: 'Sophia Tomei',
-      office: 'Diretor de Admin-fin',
+      office: 'Diretora de Adm-fin',
       linkedinUrl: 'https://www.linkedin.com/in/sophia-tomei-1a9716278/',
       photo: '/assets/team-photos/sophia.png'
     },
@@ -74,7 +74,7 @@ export class OurTeamComponent {
     },
     {
       name: 'Thaysa Mary',
-      office: 'Consultor de Adm-fin',
+      office: 'Consultora de Adm-fin',
       linkedinUrl: 'https://www.linkedin.com/in/thaysa-mary-354849209/',
       photo: '/assets/team-photos/thaysa.png'
     },

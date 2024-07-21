@@ -1,55 +1,70 @@
 section {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    gap: 2rem;
-    padding: 0 4rem;
-    margin-top: 60px;
-    width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 4rem;
+  padding: 0 4rem;
+  margin-top: 3.5rem;
+  width: 100%;
 }
+
 section h2 {
-    color: var(--white);
+  color: var(--white);
 }
 
 section ul {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    list-style-type: none;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
 }
 
 section li {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    gap: 20px
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 1.25rem;
 }
 
 span {
-    color: var(--white);
+  color: var(--white);
 }
+
 fa-icon {
-    color: var(--primary-yellow);
-    font-size: 25px;
+  color: var(--primary-yellow);
+  font-size: 2rem;
+}
+
+@media (min-width: 1920px) {
+  section {
+    padding: 0 7rem;
+  }
+
+  section ul li span {
+    font-size: 1.25rem;
+  }
 }
 
 @media (max-width: 425px) {
-    section {
-        padding: 0 2rem;
-        gap: 1rem;
-        width: 100%;
-    }
-    section h2 {
-        margin-bottom: 1.75rem;
-    }
-    section ul {
-        display: flex;
-        flex-direction: column;
-        list-style-type: none;
-        gap: 3rem;
-    }
-    section li {
-        gap: 20px
-    }
+  section {
+    padding: 0 2rem;
+    gap: 1rem;
+    width: 100%;
+  }
+
+  section h2 {
+    margin-bottom: 1.75rem;
+  }
+
+  section ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    gap: 3rem;
+  }
+
+  section li {
+    gap: 20px;
+  }
 }

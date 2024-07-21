@@ -37,13 +37,27 @@ ul {
 }
 
 li a {
-  padding: 10px 20px;
+  padding: 0.75rem 1.25rem;
   display: inline-block;
   text-align: justify;
   font-weight: 500;
   font-size: 1.25rem;
   color: var(--white, #fff);
   cursor: pointer;
+}
+
+@media (min-width: 1920px) {
+  .container-header {
+    padding: 2.5rem 7rem;
+  }
+
+  ul {
+    gap: 2.5rem;
+  }
+
+  li a {
+    font-size: 1.5rem;
+  }
 }
 
 @media (max-width: 768px) {

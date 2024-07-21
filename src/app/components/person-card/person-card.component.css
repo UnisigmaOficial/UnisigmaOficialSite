@@ -25,3 +25,9 @@
   align-items: center;
   gap: 8px;
 }
+
+.card span.office {
+  display: inline-block;
+  width: 108px;
+  text-align: center;
+}
