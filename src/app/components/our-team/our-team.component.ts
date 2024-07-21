@@ -32,37 +32,37 @@ export class OurTeamComponent {
     },
     {
       name: 'Lucas Andrade',
-      office: 'Desenvolvedor',
+      office: 'Consultor de Projetos',
       linkedinUrl: 'https://www.linkedin.com/in/lucasandrade912/',
       photo: '/assets/team-photos/lucas.png'
     },
     {
       name: 'Jessye Pereira',
-      office: 'Desenvolvedora',
+      office: 'Consultora de Marketing',
       linkedinUrl: 'https://www.linkedin.com/in/jessyepereira/',
       photo: '/assets/team-photos/jessye.png'
     },
     {
       name: 'Johnner Yelcde',
-      office: 'Desenvolvedor',
+      office: 'Consultor de Projetos',
       linkedinUrl: 'https://www.linkedin.com/in/johnner-yelcde-8b2736253/',
       photo: '/assets/team-photos/johnner.png'
     },
     {
       name: 'Jonata Barbosa',
-      office: 'Desenvolvedor',
+      office: 'Consultor de Projetos',
       linkedinUrl: 'https://www.linkedin.com/in/jonata-barbosa-31103a19b/',
       photo: '/assets/team-photos/jon.png'
     },
     {
       name: 'Caue Trajano',
-      office: 'Desenvolvedor',
+      office: 'Consultor de Projetos',
       linkedinUrl: 'https://www.linkedin.com/in/cauetrajano/',
       photo: '/assets/team-photos/caue.png'
     },
     {
       name: 'Maira Fernandes',
-      office: 'Desenvolvedora',
+      office: 'Consultora de Projetos',
       linkedinUrl: 'https://www.linkedin.com/in/maira-fernandes-130761273/',
       photo: '/assets/team-photos/maira.png'
     },
