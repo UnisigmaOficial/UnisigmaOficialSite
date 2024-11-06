@@ -30,7 +30,7 @@
   line-height: 2rem;
 }
 
-@media (max-width: 425px) {
+@media (max-width: 500px) {
   .card {
     width: 15rem;
     height: auto;

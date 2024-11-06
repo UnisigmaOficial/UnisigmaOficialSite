@@ -46,7 +46,7 @@ fa-icon {
   }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 500px) {
   section {
     padding: 0 2rem;
     gap: 1rem;

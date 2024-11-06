@@ -44,7 +44,7 @@ a {
   }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 500px) {
   section {
     display: grid;
     align-items: center;

@@ -34,7 +34,7 @@ section #team {
   }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 500px) {
   section h2 {
     margin-bottom: 28px;
     margin-top: 20px;

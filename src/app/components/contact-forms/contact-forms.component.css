@@ -60,7 +60,7 @@
   }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 500px) {
   .contact-types .contact-type .contact-title .icon {
     font-size: 1.25rem;
   }
