@@ -28,7 +28,7 @@ section .content a {
   width: 21.75rem;
 }
 
-@media (min-width: 1920px) {
+@media (min-width: 1440px) {
   section {
     padding: 0 7rem;
   }
@@ -37,6 +37,68 @@ section .content a {
     width: 95%;
     font-size: 1.75rem;
     line-height: 3rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  section {
+    padding: 0 2rem;
+  }
+
+  section .content {
+    max-width: 100%;
+  }
+
+  section .content h1 {
+    font-size: 2.5rem;
+  }
+
+  section .content p {
+    font-size: 1.2rem;
+    line-height: 1.90rem;
+    width: 100%;
+    margin: 1.5rem 0;
+  }
+
+  section .content a {
+    padding: 0.75rem 0;
+    width: 100%;
+  }
+
+  section img {
+    width: 40%;
+  }
+}
+
+@media (max-width: 768px) {
+  section {
+    padding: 0 2rem;
+    flex-direction: column;
+    padding: 0 70px 0 70px;
+  }
+
+  section .content {
+    max-width: 100%;
+  }
+
+  section .content h1 {
+    font-size: 2.5rem;
+  }
+
+  section .content p {
+    font-size: 1.2rem;
+    line-height: 1.90rem;
+    width: 100%;
+    margin: 1.5rem 0;
+  }
+
+  section .content a {
+    padding: 0.75rem 0;
+    width: 100%;
+  }
+
+  section img {
+    width: 90%;
   }
 }
 

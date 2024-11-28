@@ -87,7 +87,7 @@ strong {
   .container-footer {
     padding: 1.5rem 2rem;
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     gap: 2rem;
   }
 
@@ -102,5 +102,11 @@ strong {
 
   .container-img img {
     width: 11.25rem;
+  }
+}
+
+@media (max-width: 425px) {
+  .container-footer {
+    flex-direction: column;
   }
 }
